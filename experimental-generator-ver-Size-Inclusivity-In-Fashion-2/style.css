@@ -1,0 +1,268 @@
+/* STYLE SECTIONING TAGS */
+* { /* Reset the space of the webpage */
+   margin: 0px;
+   padding: 0px;
+}
+
+body {
+ background-color: #CAE684; 
+}
+
+
+/* STYLE TEXT */
+h1 {
+  color: #CAE684;
+  text-align: center;
+  font-size: 60px;
+  font-family: 'Marcellus', serif;
+  background-color: #72B257;
+  border-radius: 50%;
+}
+
+h2 {
+  font-family: 'Marcellus', serif;
+  color: #4D8228;
+  font-size: 20px;
+}
+
+p {
+  font-family: "Arial", Helvetica, sans-serif;
+  color: #4D8228;
+  font-size: 18px;
+}
+/* STYLE IMAGES */
+
+
+/* STYLE NAV BAR */
+ul {
+  overflow: hidden;
+  list-style-type: none;
+  text-align: center;
+  background-color: #72B257;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+li {
+  display: inline;
+}
+
+li a {
+  text-decoration: none;
+  padding: 2%;
+  letter-spacing: 2px;
+  color: #EBFF9C;
+  font-size: 20px;
+  font-family: "Arial", Arial, Helvetica, sans-serif;
+}
+
+li a:hover {
+  background-color: #4D8228;
+}
+
+
+/* STYLE BUTTONS */
+button {
+  background-color: #4D8228;
+  border: solid 2px #CAE684;
+  box-shadow: 10px 10px #315219;
+
+  color: #EBFF9C;
+  font-family: "Arial", Helvetica, sans-serif;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+/* STYLE PAGE BANNERS*/
+.banner {
+  position: relative;
+  text-align: center;
+}
+
+.header {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/*STYLE PAGE FOOTNOTES*/
+.footnote {
+  text-align: center;
+  padding: 2%;
+}
+
+.footnote a {
+  text-decoration: none;
+  color: #315219;
+}
+
+#actionFootnote {
+  margin-bottom: 2%;
+  padding: none;
+}
+
+
+/*STYLE HOME PAGE*/
+#onTheRocks {
+  width: 100%;
+  height: auto;
+}
+
+.homePage {
+  margin: 5%;
+}
+
+#factBtn {
+  padding: 2%;
+  margin-top: 4%;
+  margin-right: 42%;
+  margin-left: 42%;
+  margin-bottom: 4%;
+}
+
+#fact {
+  text-align: center;
+}
+
+
+/*STYLE TAKE ACTION PAGE*/
+#twoWomen {
+  width: 100%;
+  height: auto;
+}
+
+.inputArea {
+  background-color: #72B257;
+  border: solid 6px #4D8228;
+
+  color: #EBFF9C;
+  font-family: "Arial", Helvetica, sans-serif;
+  font-size: 20px;
+  letter-spacing: 2px;
+  text-align: left;
+  line-height: 200%;
+
+  width: 66%;
+  height: auto;
+  padding-top: 2%;
+  padding-left: 3%;
+  padding-bottom: 2%;
+  padding-right: 1%;
+
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 4%;
+  margin-bottom: 4%;
+}
+
+.script p {
+  margin-top: 4%;
+  margin-bottom: 4%;
+  margin-left: 16%;
+  margin-right: 15%;
+
+  text-align: center;
+  line-height: 200%;
+  font-size: 20px;
+}
+
+#blurb {
+  border: double 6px #EBFF9C;
+  padding: 2%;
+  padding-right: 3.5%;
+  padding-left: 3.5%;
+}
+
+#scriptBtn {
+  padding: 2%;
+  margin-top: 6%;
+  margin-bottom: 3%;
+  margin-left: 32%;
+  margin-right: 32%;
+}
+
+
+
+/*STYLE MISCONCEPTIONS PAGE*/
+#flowerCollage {
+  width: 100%;
+  height: auto;
+}
+
+.misconceptionsList {
+  padding: 2.5%;
+}
+
+.content {
+  margin-top: 1%;
+  margin-bottom: 2.5%;
+  margin-left: 1.5%;
+  line-height: 150%;
+}
+
+
+/*CHANGE CSS STYLING AFTER BREAKPOINTS*/
+/*breakpoint #1*/
+@media screen and (max-width: 900px) {
+  h1 {
+    font-size: 35px;
+  }
+
+  li a {
+    font-size: 16px;
+  }
+
+  h2 {
+    font-size: 18px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+  .script p {
+    font-size: 16px;
+  }
+
+  button {
+    font-size: 16px;
+  }
+
+  label {
+    font-size: 16px;
+  }
+}
+
+/*breakpoint #2*/
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 25px;
+  }
+
+  li a {
+    font-size: 14px;
+  }
+
+  h2 {
+    font-size: 16px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+
+  .script p {
+    font-size: 14px;
+  }
+
+  button {
+    font-size: 14px;
+  }
+
+  label {
+    font-size: 14px;
+  }
+}
+
