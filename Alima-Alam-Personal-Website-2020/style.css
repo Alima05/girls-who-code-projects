@@ -1,0 +1,292 @@
+*{
+  margin: 0%;
+  padding: 0%;
+}
+
+
+/* STYLE SECTIONING TAGS */
+body {
+ background-color: #F8D7CE; 
+}
+
+button {
+  background-color: #B8B383;
+  border: none;
+  padding: 1%;
+  text-align: center;
+  overflow: hidden;
+  display: inline;
+}
+
+/* STYLE BUTTONS */
+.button {
+  color: #F8D7CE;
+  font-size: auto;
+  font-family: "Arial", Helvetica, sans-serif;
+  font-weight: inherit;
+  letter-spacing: 2px;
+  text-decoration: none;
+}
+
+.parkbutton {
+  width: 26.5%;
+  height: auto;
+  margin-bottom: 3%;
+  margin-top: 2%;
+}
+
+.dynamitebutton {
+  width: 30.5%;
+  height: auto;
+  margin-top: 2%;
+  margin-bottom: 3%;
+  display: flex;
+}
+
+.gallerybutton {
+  width: 30.5%;
+  height: auto;
+  margin-top: 2%;
+  margin-bottom: 3%;
+  display: flex;
+}
+
+
+/* STYLE TEXT */
+#mainheading {
+  margin-left: 2%;
+  display: flex;
+  padding-top: 4%;
+}
+
+#portfolioheading {
+  text-align: center;
+}
+
+#contactheading {
+  margin-left: 48%;
+  padding-top: 4%
+}
+
+#artgalleryheading {
+  text-align: center;
+}
+
+h1 {
+  color: #6D6A48;
+  font-size: 100px;
+  font-weight: bold;
+  letter-spacing: 13px;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  font-family: "Federo", Sans Serif;
+}
+
+.intro {
+  text-align: justify;
+  margin-right: 38%;
+  float: left;
+  margin-left: 2%;
+  line-height: 150%;
+}
+
+.contact {
+  margin-left: 48%;
+  padding-bottom: 4%;
+}
+
+p {
+  text-align: justify;
+  color: #6D6A48;
+  font-size: 22px;
+  font-family: "Arial", Helvetica, sans-serif;
+  font-weight: inherit;
+  letter-spacing: 2px;
+}
+
+
+/* STYLE HOME + PORTFOLIO + CONTACT IMAGES */
+#alima {
+  float: right;
+  margin-left: 4.5%;
+  position: absolute;
+  z-index: -1;
+  margin-bottom: 0%;
+  width: 30%;
+  height: auto;
+  border-left: double 6px #B8B383;
+  padding-left: 2%;
+}
+
+#alimaselfie {
+  position: absolute;
+  z-index: -1;
+  width: 40%;
+  height: auto;
+  border: dashed 10px #B8B383;
+  margin-left: 0%;
+  margin-right: 60%;
+}
+
+#flower {
+  width: 50%;
+  height: auto;
+  float: left;
+  margin-bottom: 2%;
+  transform: scaleX(-1);
+  margin-left: 6%;
+}
+
+#adayatthepark {
+  width: 150px;
+  height: 240px;
+  border: solid 4px #B8B383;
+  margin-top: 2%;
+  display: flex;
+}
+
+#adynamitedressupgame {
+  width: 150px;
+  height: 240px;
+  border: solid 4px #B8B383;
+  display: flex;
+  margin-bottom: 2%;
+  margin-top: 2%;
+}
+
+#artworkgallery {
+  width: 150px;
+  height: 240px;
+  margin-top: 2%;
+  border: solid 4px #B8B383;
+  margin-bottom: 2%;
+}
+
+/*Style Portfolio Page*/
+.links {
+  display: flex;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+/* STYLE ART GALLERY IMAGES */
+
+#naomi {
+  width: 25%;
+  height: auto;
+  margin-left: 5%;
+  position: absolute;
+  float: right;
+  margin-top: 55%;
+  padding: 1%;
+  background-color: white;
+  border: ridge 12px #B8B8FF;
+}
+
+#chriselle {
+  width: 25%;
+  height: auto;
+  border: double 7px #B8B8FF;
+  margin-right: 2%;
+  margin-top: 15%;
+}
+
+#sunflowers {
+  width: 12%;
+  margin-left: 2%;
+  margin-right: 2%;
+  height: auto;
+  border-radius: 50%;
+  border: double 7px #B8B383;
+  position: sticky;
+}
+
+#sky {
+  width: 15%;
+  height: auto;
+  margin-left: 4%;
+  margin-top: 15%;
+  position: sticky;
+  padding: 6px;
+  background-color: black;
+  border: dotted 3px white;
+  border-radius: 50%;
+}
+
+#checkers {
+  width: 20%;
+  height: auto;
+  margin-left: 10%;
+  margin-top: 30%;
+  position: absolute;
+  background-color: white;
+  border: dashed 2px #B8B383;
+  border-radius: 50%;
+}
+
+#koitara {
+  width: 25%;
+  height: auto;
+  border-radius: 50%;
+  margin-right: 2%;
+  float: left;
+  margin-left: 4%;
+  margin-top: 5%;
+  border: solid 3px black;
+  position: sticky;
+}
+
+#cora {
+  width: 30%;
+  height: auto;
+  border: double 6px black;
+  margin-right: 2%;
+  float: right;
+  position: sticky;
+  margin-top: 2%;
+}
+
+#saranghae {
+  width: 12%;
+  height: auto;
+  margin-top: 10%;
+  border-radius: 50%;
+  border: double 7px #B8B383;
+  position: absolute;
+}
+
+#kiki {
+  width: 35%;
+  height: auto;
+  margin-top: 3%;
+  margin-left: 2%;
+  float: left;
+  padding: 1%;
+  background-color: white;
+  border: solid 2px black;
+}
+
+/* STYLE NAV BAR */
+ul {
+  list-style-type: none;
+  overflow: hidden;
+  background-color: #B8B383;
+  text-align: center;
+  padding: 1.5%;
+  }
+
+li {
+    display: inline;
+}
+
+li a {
+  color: #F8D7CE;
+  padding: 2%;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: "Arial", Helvetica, sans-serif;
+}
+
+li a:hover {
+  background-color:#6D6A48;
+}
