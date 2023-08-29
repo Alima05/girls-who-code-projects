@@ -1,0 +1,121 @@
+*{
+  margin-right: 2%;
+  margin-left: 2%;
+  text-align: center;
+}
+/* STYLE SECTIONING TAGS */
+body {
+  background-color: #DEEF9A;
+}
+
+/* STYLE TEXT */
+h1 {
+  font-family:'Philosopher', sans-serif;
+  color: #5A8F03;
+  letter-spacing: 5px;
+  text-align: center;
+  font-size: 50px;
+}
+
+h2 {
+  font-family:'Philosopher', sans-serif;
+  margin-top: 3%;
+  color: #5A8F03; 
+  font-size: 30px;
+  letter-spacing: 3px;
+  text-align: center;
+}
+
+p {
+  font-family: "calibri", Helvetica, sans-serif;
+  color: #5A8F03;
+  font-size: 20px;
+  margin-left: 5%;
+  margin-right: 5%;
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+/* STYLE FLEX CONTAINER */
+.question {
+  display: flex;
+  /* uncomment the next line to  center the questions and answers */
+  /* justify-content: center; */
+  margin-top: 2em;
+}
+  
+/* STYLE FLEX ITEM */
+.answer-choice {
+  margin: 5px;
+}
+
+/* STYLE IMAGES */
+.answer-choice img {
+  height: 160px;
+  width: 240px;
+  border: double 6px #EDB230;
+}
+
+.answer-choice iframe {
+  height: 160px;
+  width: 240px;
+  border: double 6px #EDB230;
+}
+
+/* STYLE BUTTON */
+button { 
+  margin: 1px;
+  margin-top: 5px;
+  text-align: center;
+  width: 251px;
+  height: 50px;
+  background-color:#FFDE00;
+  border: double 6px #EDB230;
+  color: black;
+  font-size: 18px;
+  letter-spacing: 2px;
+}
+
+#restart {
+  margin-bottom: 1%;
+}
+
+button:hover {
+  background-color: #EDB230;
+  color: white;
+}
+
+button:disabled, button[disabled]{
+  border: 1px solid #999999; 
+  background-color: #cccccc; 
+  color: #666666;
+}
+
+.question {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.answer-choice {
+  flex: 20%;
+}
+
+.answer-choice img {
+  vertical-align: middle;
+}
+
+/*STYLE MEDIA QUERIES FOR BREAKPOINTS*/
+/*breapoint #1*/
+@media screen and (max-width: 850px) {
+  h1 {
+    font-size: 40px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  p {
+    font-size: 15px;
+  }
+}
